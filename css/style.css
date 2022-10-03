@@ -12,7 +12,7 @@
   }
 
 
-/*-------HEADER-------*/
+/*--------------------------HEADER-------------*/
 .header-container{
     background-color: #0084fd;
     display: flex;
@@ -34,7 +34,12 @@ li{
     display: none;
 }
 
-/*-------MAIN-------*/
+
+
+/*--------------MAIN----------------*/
+
+/*-------HIGHLIGHTS-------*/
+
 .card-container{
     display: flex;
     justify-content: center;
@@ -48,9 +53,33 @@ li{
     margin: auto;
 }
 
+/*-------PLANNING-------*/
+.planning{
+    background-color: #9792e4;
+}
+
+.text-container{
+    width: 80%;
+    margin: auto;
+}
+
+.app-developement-container{
+    width: 80%;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 10%;
+    margin: auto;
+    text-align: center;
+}
 
 /*-------RESPONSIVE-------*/
+.planning{
 
+}
 
 /*------TABLET-------*/
 @media screen and (max-width: 810px) {
@@ -98,6 +127,10 @@ li{
 
     #first-card{
         width: 50%
+    }
+
+    .planning{
+        display: flex;
     }
   }
 
