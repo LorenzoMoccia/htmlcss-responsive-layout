@@ -89,6 +89,7 @@ li{
     margin: auto;
     text-align: center;
     background-color: #9792e4;
+    border-radius: 10%;
 }
 
 /*------BENEFITS-------*/
@@ -188,7 +189,7 @@ li{
         display: flex;
         flex-wrap: wrap;
     }
-    
+
     .benefits-card{
         width: 30%;
     }
