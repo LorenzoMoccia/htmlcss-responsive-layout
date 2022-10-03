@@ -67,6 +67,7 @@ li{
     width: 80%;
     border-radius: 10%;
     margin: auto;
+    background-color: white;
 }
 
 .circle{
@@ -80,6 +81,7 @@ li{
 .partners-text-container{
     width: 60%;
     margin: auto;
+    text-align: center;
 }
 
 .partners-card{
@@ -89,8 +91,22 @@ li{
     background-color: #9792e4;
 }
 
+/*------BENEFITS-------*/
+.benefits{
+    background-color: #9792e4;
+    text-align: center;
+}
 
-
+.benefits-card-container{
+    width: 90%;
+    margin: auto;
+}
+.benefits-card{
+    width: 80%;
+    margin: auto;
+    border-radius: 10%;
+    background-color: white;
+}
 
 /*-------------------------RESPONSIVE------------------------*/
 
@@ -123,10 +139,19 @@ li{
         width: 50%;
     }
 
+    /*BENEFITS*/
+    .benefits-card-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits-card{
+        width: 40%;
+    }
   }
 
 
-/*------DESKTOP-------*/
+/*-----------------------DESKTOP---------------------*/
 @media screen and (min-width: 810px) {
     .first-row{
         display: flex;
@@ -158,10 +183,19 @@ li{
         width: 70%;
     }
 
+    /*BENEFITS*/
+    .benefits-card-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .benefits-card{
+        width: 30%;
+    }
 
   }
 
-  /*------MOBILE-------*/
+  /*----------------------MOBILE----------------------*/
   @media screen and (max-width: 375px) {
 
     /*HIGHLIGHTS*/
@@ -176,5 +210,9 @@ li{
         width: 60%;
     }
 
+    /*BENEFITS*/
+    .benefits-card-container{
+        flex-direction: column;
+    }
     
 }
