@@ -1,0 +1,119 @@
+/*-------RESET-------*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+/*-------DEBUG-------*/
+.debug{
+    border: 1px dashed black;
+  }
+
+
+/*-------HEADER-------*/
+.header-container{
+    background-color: #0084fd;
+    display: flex;
+}
+
+.logo-container{
+    width: 80%;
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+}
+
+.burger-btn{
+    display: none;
+}
+
+/*-------MAIN-------*/
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 50%;
+    border-radius: 10%;
+    background-color: #b5ddff;
+    margin-top: 25px;
+    margin: auto;
+}
+
+
+/*-------RESPONSIVE-------*/
+
+
+/*------TABLET-------*/
+@media screen and (max-width: 810px) {
+    .burger-btn{
+        display: block;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .card{
+        width: 30%;
+    }
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .first-row{
+        justify-content: center;
+        display: flex;
+    }
+
+    #first-card{
+        width: 50%;
+    }
+
+  }
+
+
+/*------DESKTOP-------*/
+@media screen and (min-width: 810px) {
+    .first-row{
+        display: flex;
+    }
+
+    .card-container{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 30%
+    }
+
+    #first-card{
+        width: 50%
+    }
+  }
+
+  /*------MOBILE-------*/
+  @media screen and (max-width: 375px) {
+
+    .first-row{
+        flex-direction: column;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+
+    .card, #first-card{
+        width: 60%;
+    }
+
+    
+}
