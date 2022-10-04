@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -174,6 +175,8 @@ i{
     text-align: center;
     background-color: #9792e4;
     border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .h1-partners{
@@ -185,6 +188,21 @@ i{
 .p-partners{
     margin-bottom: 20px;
     margin-top: 20px;
+    color: white;
+}
+
+.h4-partners{
+    color: white;
+    font-size: bold;
+    margin-bottom: 20px;
+}
+
+.img-partners{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /*------BENEFITS-------*/
 .benefits{
@@ -199,8 +217,32 @@ i{
 .benefits-card{
     width: 80%;
     margin: auto;
-    border-radius: 25%;
+    border-radius: 15px;
     background-color: white;
+    margin-bottom: 20px;
+}
+
+.h1-benefits{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.violet-text{
+    color: #9792e4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.benefits-btn{
+    width: 120px;
+    height: 40px;
+    background-color: #9792e4;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
 }
 
 /*--------------FOOTER----------------*/
@@ -215,10 +257,34 @@ i{
     width: 80%;
 }
 
+.p-about-us{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#about{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.linkedin-btn{
+    width: 190px;
+    background-color: #9792e4;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
 /*------GET STARTED-------*/
 .get-started{
     background-color: #9792e4;
     text-align: center;
+    color: white;
 }
 
 .get-started-btn{
@@ -226,10 +292,32 @@ i{
     margin: auto;
 }
 
+.h1-get-started{
+    color: #fdc15f;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.margin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.get-started-btn{
+    width: 260px;
+    height: 65px;
+    color: #9792e4;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /*------LAST SECTION-------*/
 .last-section{
     background-color: #333333;
     text-align: center;
+    color: white;
 }
 
 
