@@ -20,14 +20,19 @@
 
 .logo-container{
     width: 80%;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 ul{
     display: inline-block;
+    color: white;
+    margin-top: 10px;
 }
 
 li{
     display: inline-block;
+    margin-left: 20px;
 }
 
 .burger-btn{
@@ -39,6 +44,43 @@ li{
 /*--------------MAIN----------------*/
 
 /*-------HIGHLIGHTS-------*/
+.highlights{
+    margin-bottom: 85px;
+}
+
+.h1-highlights{
+    color: #0084fd;
+    font-style: bold;
+    margin-top: 10px;
+}
+
+.p-highlights{
+    color: #5a6e7f;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.highlights-btn{
+    width: 210px;
+    height: 40px;
+    background-color: #0084fd;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+i{
+    margin-top: 10px;
+    color: #0084fd;
+}
+
+#phone{
+    width: 195px;
+    height: 270px;
+    display: block;
+}
 
 .card-container{
     display: flex;
@@ -47,15 +89,19 @@ li{
 
 .card{
     width: 50%;
-    border-radius: 10%;
+    border-radius: 15px;
     background-color: #b5ddff;
     margin-top: 25px;
     margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /*-------PLANNING-------*/
 .planning{
     background-color: #9792e4;
+    text-align: center;
 }
 
 .text-container{
@@ -65,18 +111,56 @@ li{
 
 .app-developement-container{
     width: 80%;
-    border-radius: 10%;
+    border-radius: 15px;
     margin: auto;
     background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.h1-planning{
+    color: white;
+    font-style: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p-planning{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p2-planning{
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .circle{
     border-radius: 50%;
-    width: 10%;
+    width: 60px;
+    height: 60px;
     margin: auto;
     text-align: center;
+    background-color: #9792e4;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+#planning1{
+    width: 320px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#planning2{
+    width: 245px;
+    height: 280px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
 /*-------PARTNERS-------*/
 .partners-text-container{
     width: 60%;
@@ -85,13 +169,23 @@ li{
 }
 
 .partners-card{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     background-color: #9792e4;
-    border-radius: 10%;
+    border-radius: 25px;
 }
 
+.h1-partners{
+    color: #9792e4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p-partners{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 /*------BENEFITS-------*/
 .benefits{
     background-color: #9792e4;
@@ -105,7 +199,7 @@ li{
 .benefits-card{
     width: 80%;
     margin: auto;
-    border-radius: 10%;
+    border-radius: 25%;
     background-color: white;
 }
 
@@ -199,11 +293,16 @@ li{
     }
 
     .card{
-        width: 30%
+        width: 30%;
+    }
+
+    #phone{
+        
     }
 
     #first-card{
-        width: 50%
+        width: 50%;
+        
     }
 
     /*PLANNING*/
@@ -213,7 +312,7 @@ li{
 
     /*PARTNERS*/
     .partners-card{
-        width: 65%;
+        width: 90%;
     }
 
     .partners-text-container{
