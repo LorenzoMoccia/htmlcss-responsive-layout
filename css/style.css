@@ -109,6 +109,17 @@ li{
     background-color: white;
 }
 
+/*--------------FOOTER----------------*/
+/*------ABOUT US-------*/
+.about-us-container{
+    width: 80%;
+    margin: auto;
+}
+
+.about-us-img{
+    margin: auto;
+    width: 80%;
+}
 /*-------------------------RESPONSIVE------------------------*/
 
 /*-------------------TABLET----------------------*/
@@ -148,6 +159,11 @@ li{
 
     .benefits-card{
         width: 40%;
+    }
+
+    /*ABOUT-US*/
+    .about-us{
+        display: flex;
     }
   }
 
@@ -214,6 +230,11 @@ li{
     /*BENEFITS*/
     .benefits-card-container{
         flex-direction: column;
+    }
+
+    /*ABOUT-US*/
+    .about-us{
+        display: block;
     }
     
 }
