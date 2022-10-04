@@ -120,6 +120,26 @@ li{
     margin: auto;
     width: 80%;
 }
+
+/*------GET STARTED-------*/
+.get-started{
+    background-color: #9792e4;
+    text-align: center;
+}
+
+.get-started-btn{
+    display: block;
+    margin: auto;
+}
+
+/*------LAST SECTION-------*/
+.last-section{
+    background-color: #333333;
+    text-align: center;
+}
+
+
+
 /*-------------------------RESPONSIVE------------------------*/
 
 /*-------------------TABLET----------------------*/
